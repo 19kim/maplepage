@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /naver6fea99bdb0ef4d84c611933e4f889def.html
+Disallow: /google44b169c5e7e0aa18.html
+Sitemap: http://maple.kimig.net/sitemap.xml
