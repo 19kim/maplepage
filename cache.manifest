@@ -3,7 +3,9 @@ CACHE MANIFEST
 #version 1
 
 CACHE:
-muto/res/*
+muto/res/icon.gif
+muto/res/ogimage.gif
+muto/res/깔깔만두.gif
 https://fonts.googleapis.com/icon?family=Material+Icons
 
 NETWORK:
