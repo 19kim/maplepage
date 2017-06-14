@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-#version 1
+#version 2
 
 CACHE:
 
@@ -61,3 +61,4 @@ NETWORK:
 *
 
 FALLBACK:
+online_only.html offline_only.html
