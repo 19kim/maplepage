@@ -55,7 +55,7 @@ http://minkigui.kimig.net/kigui.js
 #일반 스크립트
 muto/kigui_custom.css
 muto/styles.css
-muto/script.css
+muto/script.js
 
 NETWORK:
 *
