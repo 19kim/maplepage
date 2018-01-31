@@ -1,49 +1,14 @@
 CACHE MANIFEST
 
-#version 5
+#version 4
 
 CACHE:
 
 #아이콘류
 muto/res/icon.gif
 muto/res/ogimage.gif
-
-#요리
-muto/res/깔깔만두.gif
-muto/res/낄낄볶음밥.gif
-muto/res/앗볶음.gif
-muto/res/엉엉순대.gif
-muto/res/오잉피클.gif
-muto/res/으악샐러드.gif
-muto/res/이런면.gif
-muto/res/저런찜.gif
-muto/res/크헉구이.gif
-muto/res/큭큭죽.gif
-muto/res/하빵.gif
-muto/res/허허말이.gif
-muto/res/헉튀김.gif
-muto/res/호호탕.gif
-muto/res/휴피자.gif
-muto/res/흑흑화채.gif
-
-#요리 재료
-muto/res/느끼껍질.gif
-muto/res/단단물갈퀴.gif
-muto/res/달달발굽.gif
-muto/res/담백갈기.gif
-muto/res/말랑등껍질.gif
-muto/res/매콤발굽.gif
-muto/res/끈적깃털.gif
-muto/res/미끈깃털.gif
-muto/res/바싹등껍질.gif
-muto/res/새콤껍질.gif
-muto/res/시큼물갈퀴.gif
-muto/res/쫀득발바닥.gif
-muto/res/쫄깃발톱.gif
-muto/res/츄릅열매.gif
-muto/res/텁텁발톱.gif
-muto/res/톡톡갈기.gif
-muto/res/폭신발바닥.gif
+muto/res/food_img.png
+muto/res/material_img.png
 
 #라이브러리
 https://www.google-analytics.com/analytics.js
