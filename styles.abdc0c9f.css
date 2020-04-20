@@ -1,0 +1,282 @@
+/*.line {*/
+/*}*/
+/*.line:not(:last-child) {*/
+/*margin-bottom:10px;*/
+/*}*/
+
+/*@media all and (min-width:480px) {*/
+/*.line {*/
+/*float:left;*/
+/*width: 50%;*/
+/*}*/
+/*.line:not(:last-child) > **/
+/*{*/
+/*margin-right:10px;*/
+/*}*/
+/*.line:not(:last-child) {*/
+/*}*/
+/*.line:last-child:after {*/
+/*content: "";*/
+/*display:block;*/
+/*clear:both;*/
+/*}*/
+/*}*/
+
+.abc {
+  text-align: center;
+
+  font-size: 0;
+}
+.abc > .kigui-o-f {
+  width: 140px;
+  height: 150px;
+
+  font-size: 1rem;
+
+  margin: 0 5px 10px 5px;
+  /*margin-right:0.7em;*/
+  /*margin-bottom:0.7em;*/
+
+  display: inline-block;
+
+  overflow: hidden;
+}
+
+.abc:not(.open_mode) > .kigui-o-f {
+  cursor: pointer;
+}
+
+/*.abc > .kigui-o-f > h3 {*/
+/*-webkit-transition-property: margin;*/
+/*-moz-transition-property: margin;*/
+/*-ms-transition-property: margin;*/
+/*-o-transition-property: margin;*/
+/*transition-property: margin;*/
+/*-webkit-transition-duration: 0.3s;*/
+/*-moz-transition-duration: 0.3s;*/
+/*-ms-transition-duration: 0.3s;*/
+/*-o-transition-duration: 0.3s;*/
+/*transition-duration: 0.3s;*/
+/*}*/
+
+.abc > .kigui-o-f:not(.show) > h3 {
+  margin-bottom: 17px;
+}
+
+.abc > .kigui-o-f > .img_food {
+  height: 110px;
+  width: 110px;
+
+  display: block;
+  margin: 0 auto;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-transition-property: height;
+  -moz-transition-property: height;
+  -ms-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.abc:not(.open_mode) > .kigui-o-f.show > .img_food {
+  height: 0;
+}
+
+.abc > .kigui-o-f .img_material {
+  height: 22px;
+  width: 22px;
+}
+
+.abc.open_mode > .kigui-o-f {
+  height: 270px;
+}
+
+:not(.o-abc) .abc {
+  display: none;
+}
+.o-abc > .abc {
+  display: block;
+}
+
+:not(.o-info) .info {
+  display: none;
+}
+.o-info > .info {
+  display: block;
+}
+
+.f01,
+.f02,
+.f03,
+.f04,
+.f05,
+.f06,
+.f07,
+.f08,
+.f09,
+.f10,
+.f11,
+.f12,
+.f13,
+.f14,
+.f15,
+.f16 {
+  background: url("/food_img.d677dbf2.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+
+.f01 {
+  background-position: -0px -0px;
+}
+.f02 {
+  background-position: -110px -0px;
+}
+.f03 {
+  background-position: -220px -0px;
+}
+.f04 {
+  background-position: -330px -0px;
+}
+.f05 {
+  background-position: -0px -110px;
+}
+.f06 {
+  background-position: -110px -110px;
+}
+.f07 {
+  background-position: -220px -110px;
+}
+.f08 {
+  background-position: -330px -110px;
+}
+.f09 {
+  background-position: -0px -220px;
+}
+.f10 {
+  background-position: -110px -220px;
+}
+.f11 {
+  background-position: -220px -220px;
+}
+.f12 {
+  background-position: -330px -220px;
+}
+.f13 {
+  background-position: -0px -330px;
+}
+.f14 {
+  background-position: -110px -330px;
+}
+.f15 {
+  background-position: -220px -330px;
+}
+.f16 {
+  background-position: -330px -330px;
+}
+
+.m01,
+.m02,
+.m03,
+.m04,
+.m05,
+.m06,
+.m07,
+.m08,
+.m09,
+.m10,
+.m11,
+.m12,
+.m13,
+.m14,
+.m15,
+.m16,
+.m17 {
+  display: inline-block;
+  background: url("/material_img.9e59b179.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+
+.m01 {
+  background-position: -0px -0px;
+}
+.m02 {
+  background-position: -22px -0px;
+}
+.m03 {
+  background-position: -44px -0px;
+}
+.m04 {
+  background-position: -66px -0px;
+}
+.m05 {
+  background-position: -0px -22px;
+}
+.m06 {
+  background-position: -22px -22px;
+}
+.m07 {
+  background-position: -44px -22px;
+}
+.m08 {
+  background-position: -66px -22px;
+}
+.m09 {
+  background-position: -0px -44px;
+}
+.m10 {
+  background-position: -22px -44px;
+}
+.m11 {
+  background-position: -44px -44px;
+}
+.m12 {
+  background-position: -66px -44px;
+}
+.m13 {
+  background-position: -0px -66px;
+}
+.m14 {
+  background-position: -22px -66px;
+}
+.m15 {
+  background-position: -44px -66px;
+}
+.m16 {
+  background-position: -66px -66px;
+}
+.m17 {
+  background-position: -0px -88px;
+}
+
+@media all and (max-width: 320px) and (orientation: portrait) {
+  .abc > .kigui-o-f {
+    width: 120px;
+    height: 140px;
+
+    font-size: 14px;
+  }
+
+  .abc > .kigui-o-f > h3 {
+    font-size: 17px;
+  }
+
+  .abc.openMode > .kigui-o-f {
+    height: 260px;
+  }
+}
+
+
+/*# sourceMappingURL=/styles.abdc0c9f.css.map */

@@ -1,0 +1,43 @@
+.kigui-l-h-a {
+    background-color: #ffa100;
+}
+
+/*******************************
+             사이드바
+*******************************/
+.kigui-l-s {
+    /*사이드바 배경색*/
+    background-color:#fafafa;
+    /*사이드바 글자색*/
+    color:#000000;
+}
+
+.kigui-l-s-h {
+    /*사이드바 헤더 배경색*/
+    background-color:#ffa100;
+    /*사이드바 헤더 글자색*/
+    color:#fafafa;
+
+}
+
+.kigui-l-s-b-c > ul > li > ul > li:hover {
+    /*카테고리 마우스 올릴 시 색 변화*/
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.kigui-l-s-b-c > ul > li {
+    /*카테고리 구분*/
+    border-bottom:1px solid rgba(0, 0, 0, 0.3);
+}
+
+.kigui-l-o-p {
+    /*사이드 바 열릴 시 배경*/
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.kigui-l-c {
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+/*# sourceMappingURL=/kigui_custom.24e5c678.css.map */
